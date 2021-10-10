@@ -1,0 +1,194 @@
+.main_post{
+    display: flex;
+}
+
+.main_post-left{
+    background-color: white;
+    margin-top: 40px;
+    position: relative;
+    &-image{
+        border-radius: 50%;
+        padding: 20px 70px;
+    }
+    &-heading{
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 24px;
+        margin: 0;
+        padding: 0;
+        margin-top: 15px;
+        margin-bottom: 5px;
+        padding: 10px 70px;
+    }
+    &-padding{
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        opacity: 0.9;
+        padding: 5px 70px;
+    }
+    &-padding1{
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        opacity: 0.6;
+        margin-top: 5px;
+        margin-bottom: 15px;
+        padding: 0px 70px;
+
+    }
+    &-button{
+        width: 150px;
+        height: 40px;
+        border: none;
+        background-color: rgb(0, 195, 255);
+        border-radius: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        margin-bottom: 15px;
+        margin: 5px 70px;
+
+        &:active{
+            background-color: rgb(25, 156, 218);
+        }
+    }
+    &-button1{
+        width: 150px;
+        height: 40px;
+        border: none;
+        background-color: white;
+        border: 1px solid rgb(172, 233, 252);
+        border-radius: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(0, 195, 255);
+        margin: 5px 70px;
+
+        &:active{
+            background-color: rgb(206, 242, 253);
+           }
+    }
+    &--image{
+        position: absolute;
+        left: 190px;
+        margin-top: 20px;
+
+    }
+}
+.followers{
+    display: flex;
+    &_heading{
+        margin: 0;
+        padding: 0;
+        margin-top: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        margin-left: 50px ;
+    }
+    &_padding{
+        margin: 0 ;
+        padding: 0;
+        color: gray;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        opacity: 0.5;
+        margin-left: 30px ;
+    }
+    &_heading4{
+        margin: 0;
+        padding: 0;
+        margin-top: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        margin-left: 10px ;
+        }
+    &_padding4{
+        margin: 0 ;
+        padding: 0;
+        color: gray;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        opacity: 0.5;
+        margin-right: 30px ;
+    }
+    &_headering{
+        height: 70px;
+        background-color: gray;
+        opacity: 0.4;
+    }
+
+}
+.main_diver-header{
+    // height: 60px;
+    background-color: gray;
+    opacity: 0.4;
+    // width: 500px;
+    position: relative;
+    top: 16px;
+}
+.main_divering-header{
+        // height: 60px;
+        background-color: gray;
+        opacity: 0.4;
+        // width: 500px;
+        position: relative;
+        bottom: 16px;
+}
+.main{
+    &_linkedin{
+        color: gray;
+        opacity: 0.6;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        display: flex;
+        margin-left: 20px;
+        &::before{
+            background-image: url(../../image/link.png);
+            content: "";
+            display: block;
+            background-size: cover;
+            background-repeat: no-repeat;
+            width: 18px;
+            height: 15px;
+            margin-right: 3px;
+        }
+    }
+    &_globus{
+        color: gray;
+        opacity: 0.6;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        display: flex;
+        margin-left: 20px;
+        &::before{
+            background-image: url(../../image/globus.png);
+            content: "";
+            display: block;
+            background-size: cover;
+            background-repeat: no-repeat;
+            width: 15px;
+            height: 15px;
+            margin-right: 5px;
+        }
+    }
+    &_export{
+        color: gray;
+        opacity: 0.6;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        display: flex;
+        margin-left: 20px;
+        &::before{
+            background-image: url(../../image/download.png);
+            content: "";
+            display: block;
+            background-size: cover;
+            background-repeat: no-repeat;
+            width: 15px;
+            height: 15px;
+            margin-right: 5px;
+            margin-bottom: 30px;
+        }
+    }
+}

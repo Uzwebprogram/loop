@@ -1,0 +1,69 @@
+.main-post-center{
+    max-width: 700px;
+    height: 400px;
+    background-color: white;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.center{
+    &-headering{
+        background-color: gray;
+        opacity: 0.2;
+    }
+    &-heading{
+        display: flex;
+        font-family: Arial, Helvetica, sans-serif;
+        opacity: 0.8;
+
+        &::after{
+            background-image: url(../../image/strelka.png);
+            content: "";
+            display: block;
+            background-size: cover;
+            background-repeat: no-repeat;
+            width: 20px;
+            height: 20px;
+            margin-left: 460px;
+            border: 2px solid rgb(0, 17, 255);
+            border-radius: 50%;
+            padding: 5px;
+        }
+        &::before{
+            background-image: url(../../image/strelka.png);
+            content: "";
+            display: block;
+            background-size: cover;
+            background-repeat: no-repeat;
+            width: 20px;
+            height: 20px;
+            position: relative;
+            left: 620px;
+            border: 2px solid rgb(0, 17, 255);
+            border-radius: 50%;
+            padding: 5px;
+        }
+    }
+}
+.item-list3{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.item-list2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.center-heading1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+.center-padding{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    opacity: 0.5;
+    margin: 0;
+    padding: 0;
+}

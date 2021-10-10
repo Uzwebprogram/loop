@@ -1,0 +1,11 @@
+@mixin size {
+    margin: 0;
+    padding: 0;
+}
+@mixin margin {
+    margin: 0 auto;
+}
+@mixin font ($hajm) {
+    font-family: "Roboto" , "Arial" , sans-serif;
+    font-weight: $hajm;
+}

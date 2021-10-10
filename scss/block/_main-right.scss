@@ -1,0 +1,52 @@
+.main-post-right{
+    margin-top: 24px;
+    margin-left: 20px;
+}
+.right{
+    &_more{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        opacity: 0.6;
+        font-weight: 400;
+        &-image{
+            border-radius: 50%;
+        }
+        &-heading{
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            margin-right: 10px;
+        }
+        &-padding{
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            margin-right: 10px;
+            opacity: 0.4;
+        }
+    }
+    &-heading{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        opacity: 0.6;
+        font-weight: 400;
+    }
+    &_avatar{
+        display: flex;
+        &-image{
+            border-radius: 50%;
+            margin-bottom: 10px;
+            margin-right: 10px;
+        }
+        &-text-heading{
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+            margin-top: 5px;
+        }
+        &-text-padding{
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            opacity: 0.5;
+        }
+    }
+}
